@@ -1,0 +1,40 @@
+body{
+    background-color: red;
+}
+.child{
+	width: 300px;
+	box-shadow: 0px 0px 10px white;
+	background-color: white;
+	margin: 20px auto;
+	text-align: center;
+	padding: 15px;
+	border-radius: 10px;
+}
+img{
+	height: 200px;
+	width: 200px;
+}
+p{
+	text-align: justify;
+}
+.child h2{
+	color: gold;
+	text-shadow: 0px 0px 8px black;
+}
+button{
+	color: white;
+	background-color: blue;
+	border: none;
+	border-radius: 10px;
+	height: 40px;
+	width: 100px;
+}
+button:hover{
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+.parent{
+	display: flex;
+	justify-content: space-evenly;
+}
