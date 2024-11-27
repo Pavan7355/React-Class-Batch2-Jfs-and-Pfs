@@ -1,18 +1,14 @@
 import React from 'react'
-import Validation from './PropsValidation/Validation';
-import Example1 from './ReactState/Example1';
-import Example2 from './ReactState/Example2';
+import Example3 from './ReactState/Example3';
+import StateAndProps from './ReactState/StateAndProps';
+
 
 function App() {
-// let handleClick= ()=>{
-//     alert("i am arrow function")
-//   }
+
   return (
 <>
-{/* <Validation name="Raj" age={30} isStudent={false}
-click={handleClick}/> */}
-{/* <Example1/> */}
-<Example2/>
+{/* <Example3/> */}
+<StateAndProps/>
 </>
   );
 }
