@@ -1,14 +1,15 @@
 import React from 'react'
-import Example3 from './ReactState/Example3';
-import StateAndProps from './ReactState/StateAndProps';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
 
   return (
 <>
-{/* <Example3/> */}
-<StateAndProps/>
+<center>
+<button className='btn btn-danger'>CLick here</button>
+<button className='btn btn-danger'>CLick here</button>
+</center>
 </>
   );
 }
