@@ -1,22 +1,17 @@
 import React from 'react'
-// import Example1 from './ConditionalRendering/Example1';
-// import Logout from './ConditionalRendering/Logout';
-// import Login from './ConditionalRendering/Login';
-import Example2 from './ConditionalRendering/Example2';
-import Example3 from './ConditionalRendering/Example3';
-import Example4 from './ConditionalRendering/Example4';
-import Example5 from './ConditionalRendering/Example5';
+import Example1 from './ReactList/Example1';
+import Example2 from './ReactList/Example2';
+import Example3 from './ReactList/Example3';
+import Example4 from './ReactList/Example4';
 
 function App() {
 
   return (
 <>
-{/* <Example1 name="Viart" isloggedIn={false}/>
-<Example1 name="Sachin" isloggedIn={true}/> */}
-{/* <Example2  isloggedIn={false}/> */}
-{/* <Example3 isloggedIn={false}/> */}
-{/* <Example4 isloggedIn={true}/> */}
-<Example5 booleanValue={true}/>
+{/* <Example1/> */}
+{/* <Example2/> */}
+{/* <Example3/> */}
+<Example4/>
 </>
   );
 }
