@@ -1,0 +1,27 @@
+.container{
+    display: grid;
+    place-items: center;
+    margin: 50px auto;
+    background-color: grey;
+   
+}
+
+input{
+    margin: 10px;
+    padding: 5px;
+}
+
+#btn{
+    height: 40px;
+    width: 70px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
