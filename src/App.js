@@ -1,13 +1,12 @@
 import React from 'react'
-import Example7 from './UseStateHook/Example7';
-import Example8 from './UseStateHook/Example8';
-
+import Heading from './Formproj/Heading'
+import Regform from './Formproj/Regform'
 function App() {
 
   return (
 <>
-{/* <Example7/> */}
-<Example8/>
+<Heading/>
+<Regform/>
 </>
   );
 }
