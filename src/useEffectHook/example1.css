@@ -1,0 +1,43 @@
+.container{
+    height: 200px;
+    width: 500px;
+    box-shadow: 0px 0px 10px red;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btn1,.btn2,.btn3{
+    margin: 20px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+}
+.btn1{
+   border: 2px solid green;
+    color: black;
+}
+.btn2{
+    border: 2px solid yellow;
+    color:black;
+}
+.btn3{
+border: 2px solid red;
+color:black;
+}
+.btn1:hover{
+    background-color: green;
+    color: white;
+}
+.btn2:hover{
+    background-color: yellow;
+    color: white;
+}
+.btn3:hover{
+    background-color: red;
+    color: white;
+}

@@ -1,12 +1,11 @@
 import React from 'react'
-import Heading from './Formproj/Heading'
-import Regform from './Formproj/Regform'
+import ProfileChange from './useEffectHook/ProfileChange';
+
 function App() {
 
   return (
 <>
-<Heading/>
-<Regform/>
+<ProfileChange/>
 </>
   );
 }
