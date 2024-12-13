@@ -1,11 +1,13 @@
 import React from 'react'
-import ProfileChange from './useEffectHook/ProfileChange';
+import DataFetcher from './useEffectHook/DataFetcher';
+import DataFetcher2 from './useEffectHook/DataFetcher2';
 
 function App() {
 
   return (
 <>
-<ProfileChange/>
+{/* <DataFetcher/> */}
+<DataFetcher2/>
 </>
   );
 }
