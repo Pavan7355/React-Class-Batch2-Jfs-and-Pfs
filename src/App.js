@@ -1,13 +1,15 @@
 import React from 'react'
-import DataFetcher from './useEffectHook/DataFetcher';
-import DataFetcher2 from './useEffectHook/DataFetcher2';
+// import DataFetcherTable from './useEffectHook/DataFetcherTable';
+// import Component1 from './Propsdrilling/Component1';
+import Component1 from './UseContext/Component1';
 
 function App() {
 
   return (
 <>
-{/* <DataFetcher/> */}
-<DataFetcher2/>
+{/* <DataFetcherTable/> */}
+{/* <Component1/> */}
+<Component1/>
 </>
   );
 }
