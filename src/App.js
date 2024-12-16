@@ -1,15 +1,13 @@
 import React from 'react'
-// import DataFetcherTable from './useEffectHook/DataFetcherTable';
-// import Component1 from './Propsdrilling/Component1';
-import Component1 from './UseContext/Component1';
+import Counter1 from './CustomHook/Counter1';
+import Counter2 from './CustomHook/Counter2';
 
 function App() {
 
   return (
 <>
-{/* <DataFetcherTable/> */}
-{/* <Component1/> */}
-<Component1/>
+<Counter1/>
+<Counter2/>
 </>
   );
 }
