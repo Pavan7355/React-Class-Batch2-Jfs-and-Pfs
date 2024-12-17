@@ -1,0 +1,20 @@
+.heading{
+
+    height: 50px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+nav{
+    height: 40px;
+    background-color: rgb(4, 4, 53);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-items{
+    color: white;
+    text-decoration: none;
+    margin-right: 50px;
+}
