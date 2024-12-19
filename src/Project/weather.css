@@ -1,0 +1,62 @@
+body{
+    background-color: #c7c5c5cb;
+}
+.container{
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    width: 500px;
+    padding: 20px;
+    font-family: Arial,sans-serif;
+    overflow-y: hidden;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px black;
+}
+.title{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.inputContainer{
+    margin-bottom: 20px;
+}
+.input{
+    margin-right: 10px;
+    padding:8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.button{
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #005f75;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.error{
+    color: red;
+    margin-bottom: 20px;
+}
+.weatherContainer{
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+}
+.subtitle{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.temperature,.humidity,.windspeed{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
